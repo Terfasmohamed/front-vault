@@ -2,7 +2,7 @@
     "rewrites":[
         {
             "source": "/(.*)",
-            "destination": "https://front-vault.vercel.app/"
+            "destination": "/index.html"
         }
     ]
 }
