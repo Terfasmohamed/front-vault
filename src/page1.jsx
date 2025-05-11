@@ -23,7 +23,7 @@ export default function Home() {
           </p>
      <button
             className="rounded-full bg-gradient-to-r from-blue-400 to-cyan-400 px-6 py-3 text-lg font-semibold text-white shadow-lg transition duration-300 hover:shadow-xl"
-            onClick={() => window.location.href = "/login"}
+            onClick={() => window.location.href = "./login"}
             >
             Get Started
      </button>
