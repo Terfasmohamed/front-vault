@@ -5,6 +5,7 @@ import MainPage from './assets/mainpage.jsx';
 import TransactionHistory from './TransactionHistory.jsx'; 
 import Navbar from './navbar.jsx'; 
 import Home from './page1.jsx';
+import PDESolution from './assets/pde-solution.jsx';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
    <Route path="/" element={<Home />} />
    <Route path="/login" element={<LoginPage />} />
    <Route path="/signup" element={<SignupPage />} />
+   <Route path="/pde-solution" element={<PDESolution />} />
    </Routes>
     <Routes>
       <Route path="/mainpage" element={<MainPage />} />

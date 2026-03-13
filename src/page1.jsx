@@ -27,6 +27,12 @@ export default function Home() {
             >
             Get Started
      </button>
+          <button
+            className="mt-4 rounded-full border border-cyan-400 px-6 py-3 text-lg font-semibold text-cyan-400 shadow-lg transition duration-300 hover:bg-cyan-400 hover:text-white"
+            onClick={() => window.location.href = "/pde-solution"}
+          >
+            Résolution d&apos;EDP — Explication
+          </button>
         </div>
       </div>
     </main>
